@@ -4,7 +4,7 @@ function calcularSoma() {
     const notap2 = parseFloat(document.getElementById("notap2").value );
    
 
-    const resultado = notap1 + (notap2 * 2) / 3;
+    const resultado = (notap1 + (notap2 * 2) / 3);
      
     const resultadoCerto = parseFloat(resultado.toFixed(2));
   
